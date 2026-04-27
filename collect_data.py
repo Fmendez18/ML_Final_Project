@@ -1,5 +1,4 @@
 import kagglehub
-import pandas as pd
 
 path = kagglehub.dataset_download("grassknoted/asl-alphabet")
 
