@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
 # Both folders from the grassknoted dataset
-TRAIN_PATH = "/Users/santiagolandinez/.cache/kagglehub/datasets/grassknoted/asl-alphabet/versions/1/asl_alphabet_train/asl_alphabet_train"
+TRAIN_PATH = "/Users/fmendez/.cache/kagglehub/datasets/grassknoted/asl-alphabet/versions/1/asl_alphabet_train/asl_alphabet_train"
 IMG_SIZE   = 64
 
 def load_images(folder_path, excluded_classes=None):
