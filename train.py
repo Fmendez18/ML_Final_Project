@@ -11,7 +11,7 @@ MODEL_DIR   = "models"
 IMG_SIZE    = 64
 BATCH_SIZE  = 64
 EPOCHS      = 10
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0001
 DEVICE      = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print(f"Using device: {DEVICE}")
