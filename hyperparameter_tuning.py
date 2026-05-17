@@ -15,8 +15,8 @@ print(f"Using device: {DEVICE}")
 
 
 PARAM_GRID = {
-    "learning_rate": [0.01, 0.001, 0.0001],
-    "batch_size":    [16, 32, 64],
+    "learning_rate": [0.001, 0.0001],
+    "batch_size":    [32, 64],
     "epochs":        [5, 10]
 }
 

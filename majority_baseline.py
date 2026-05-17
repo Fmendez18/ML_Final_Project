@@ -49,9 +49,9 @@ print(f"Precision: {prec:.4f} (macro)")
 print(f"Recall:    {rec:.4f}  (macro)")
 print(f"F1 Score:  {f1:.4f}  (macro)")
 
-print("\nNote: With 29 balanced classes, random chance = ~3.45%")
+print("\nNote: With 27 balanced classes, random chance = ~3.70%")
 print("This baseline confirms our dataset is balanced and")
-print("highlights how much better our CNN performs.")
+print("highlights how much better our CNN will performs.")
 
 print("\nClassification Report:")
 print(classification_report(
