@@ -49,7 +49,7 @@ classes     = np.load(f"{DATA_DIR}/classes.npy")
 num_classes = len(classes)
 
 model = ASL_CNN(num_classes).to(DEVICE)
-model.load_state_dict(torch.load(f"{MODEL_DIR}/asl_cnn.pth",
+model.load_state_dict(torch.load(f"{MODEL_DIR}/asl_cnn_best.pth",
                                   map_location=DEVICE))
 model.eval()
 print("Model loaded!")
