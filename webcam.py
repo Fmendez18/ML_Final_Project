@@ -16,8 +16,8 @@ BOX_SIZE      = 350       # size of the hand capture box
 
 # ── LOAD MODEL ────────────────────────────────────────────────────────────────
 class ASL_CNN(nn.Module):
-    def __init__(self, num_classes):
-        super(ASL_CNN, self).__init__()
+    def _init_(self, num_classes):
+        super(ASL_CNN, self)._init_()
         self.conv1 = nn.Sequential(
             nn.Conv2d(3, 32, kernel_size=3, padding=1),
             nn.BatchNorm2d(32), nn.ReLU(), nn.MaxPool2d(2, 2)
