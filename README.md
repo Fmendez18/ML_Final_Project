@@ -196,7 +196,7 @@ Tested on Python 3.10+ and PyTorch 2.x. Developed and trained on Google Colab wi
 
 Santiago Landinez, Federico Mendez, Isabella Garay, María Fernanda Jacobo, Cesar Prieto, Faris Alami
 
-IE University, BDBA 2025 — Machine Learning Foundations.
+IE University, BDBA 2026 — Machine Learning Foundations.
 
 ---
 
